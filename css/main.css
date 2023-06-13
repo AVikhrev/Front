@@ -1,7 +1,7 @@
 	body{
-	font-family: 'League Spartan'; /*Применение нового шрифта*/
-	background-color: #FFFFFF;/*Цвет подложки*/
-	color:#272727;/*Цвет текста*/
+	font-family: 'League Spartan'; 
+	background-color: #FFFFFF;
+	color:#272727;
 }
 h1{
 	font-size: 300px;
@@ -68,9 +68,58 @@ h3{
 	margin-top: -104px;
 }
 .main-article{
-	text-align: center;
+	line-height: 45px;
 	font-size: 24px;
-	line-height: 90px;
-	width: 171px;
-	height: 41px;
+	text-align: center;
+}
+.main-title{
+	line-height: 81px;
+	font-size: 72px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 84px;
+}
+.main-item-wrap{
+	width: 530px;
+	height: 630px;
+	background-color: #F8F8F8;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 67px;
+}
+.item-name{
+	text-align: center;
+	margin-bottom: 17px;
+}
+.item-article{
+	font-size: 32px;
+	line-height: 50px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 85px;
+}
+.main-item{
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 530px;
+}
+.footer-descr-name{
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 60px;
+	text-align: center;
+}
+.footer-descr{
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: center;
+	}
+	.footer{
+		margin: 0 auto;
+		justify-content: center;
+		display: block;
+		width: 1000px;
 }
